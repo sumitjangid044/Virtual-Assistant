@@ -12,7 +12,7 @@ import chatgptResponse from "./chatgpt.js"
 
 const app = express()
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://virtual-assistant-qz5f.onrender.com",
     credentials:true
 }))
 const port = process.env.PORT || 5000
