@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* 🔥 Ultra thin scrollbar */
+::-webkit-scrollbar {
+    width: 2px;
+    /* 👈 thin line */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    /* no background */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.4);
+    /* light line */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.7);
+}
